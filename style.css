@@ -28,6 +28,9 @@
     font-size: 35px;
     font-weight: 600;
 }
+.navbar .logo a span{
+    color: rgb(97, 8, 119);
+}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -37,6 +40,10 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.4s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
 }
 /* home section */
 .home{
