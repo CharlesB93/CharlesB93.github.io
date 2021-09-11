@@ -18,9 +18,13 @@
     background: crimson;
     font-family: 'Ubuntu', sans-serif;
 }
+.navbar.sticky{
+    padding: 30px 0;
+    background: rgb(187, 20, 220);
+}
 .navbar .max-width{
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
 }
 .navbar .logo a{
