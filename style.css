@@ -5,12 +5,23 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
 /* navbar */
 .navbar{
     position: fixed;
     width: 100%;
+    padding: 30px 0;
     background: crimson;
     font-family: 'Ubuntu', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .navbar .logo a{
     color: #fff;
@@ -23,4 +34,35 @@
 }
 .navbar .menu li a{
     color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+/* home section */
+.home{
+    display: flex;
+    background: rgb(97, 8, 119);
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: red;
+    font-weight: 500;
 }
