@@ -5,6 +5,11 @@
         }else{
             $('.navbar').removeClass("sticky");
         }
-    })
+    });
+    // menu script
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.navbar .menu i').toggleClass("active");
+    });
  });
     
