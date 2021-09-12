@@ -9,7 +9,7 @@
     // menu script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
-        $('.navbar .menu i').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
     });
  });
     
